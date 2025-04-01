@@ -288,7 +288,7 @@ def main(argv):
     path = ""
     if len(argv) < 3:
         print("Usage: fhloaderparse [FHLoaderDir] [OutputDir]")
-        exit(0)
+        sys.exit(0)
 
     path = argv[1]
     outputdir = argv[2]
